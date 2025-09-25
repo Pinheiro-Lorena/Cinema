@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/*asterisco é seletor global
+
+
+*/
+* {
+  margin: 0;
+  padding: 24;
+  box-sizing: border-box;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.Titulo {
+  color: rgb(201, 6, 113);
+  text-align: center;
+  margin: 12px 0;
+}
+
+#btn1 {
+  background-color: darkorchid;
+  padding: 12px 24px;
+}
+
+#btn2 {
+  background-color: darkorchid;
+  padding: 12px 24px;
+}
+
+#btn3 {
+  background-color: darkorchid;
+  padding: 12px 24px;
+}
+
+#btn4 {
+  background-color: darkorchid;
+}
+
+body {
+  background-color: rgb(212, 136, 209);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  margin-bottom: 24px;
+  padding: 24px;
+  background-color: rgb(235, 158, 215);
+  border: 1px solid #b886a7;
+  border-radius: 4px;
+}
+
+button {
+  background-color: rgb(201, 6, 113);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 24px;
+  background-color: rgb(163, 115, 159);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(51, 2, 29, 0.1);
+}
+
+button {
+  transition: background-color 0.3s;
+  margin: auto;
+  display: block;
+}/*# sourceMappingURL=style.css.map */
